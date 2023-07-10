@@ -1,8 +1,3 @@
-const scroll = new LocomotiveScroll({
-  el: document.querySelector('[data-scroll-container]'),
-  smooth: true
-});
-
 $(document).ready(function () {
   //onclick show menu
   $("nav").hide();
